@@ -13,6 +13,7 @@ const Result = ({ data }) => {
     const totalLoanMonths = loanTerm * 12;
     const interestPerMonth = interestRate / 100 / 12;
 
+    // calcolata con ChatGPT
     const monthlyPayment =
         (loanAmount *
             interestPerMonth *
